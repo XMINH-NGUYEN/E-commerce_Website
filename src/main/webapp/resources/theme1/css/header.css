@@ -108,7 +108,6 @@
 	width: 10px;
 	height: 10px;
 	background-color: black;
-	border-radius: 50%;
 	transition: all 0.5s ease;
 }
 
@@ -117,8 +116,26 @@
 }
 
 .header_banner .controller_active {
-	border-color: black;
+	border-color: black !important;
 	background: white;
+}
+
+@media screen and (max-width: 992px) {
+	.header_banner .controller_item {
+		width: 16px;
+		height: 16px;
+		border: 1px solid white;
+	}
+	
+	.header_banner .controller_item:before {
+		width: 8px;
+		height: 8px;
+	}
+	
+	.header_banner .controller_active:after {
+		width: 8px;
+		height: 8px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -139,24 +156,6 @@
 	}
 	
 	.header_banner .controller_item {
-		width: 16px;
-		height: 16px;
-		border: 1px solid silver;
-	}
-	
-	.header_banner .controller_item:before {
-		width: 8px;
-		height: 8px;
-	}
-	
-	.header_banner .controller_active:after {
-		width: 8px;
-		height: 8px;
-	}
-}
-
-@media screen and (max-width: 576px) {
-	.header_banner .controller_item {
 		width: 12px;
 		height: 12px;
 	}
@@ -169,6 +168,23 @@
 	.header_banner .controller_active:after {
 		width: 6px;
 		height: 6px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.header_banner .controller_item {
+		width: 8px;
+		height: 8px;
+	}
+	
+	.header_banner .controller_item:before {
+		width: 4px;
+		height: 4px;
+	}
+	
+	.header_banner .controller_active:after {
+		width: 4px;
+		height: 4px;
 	}
 }
 
