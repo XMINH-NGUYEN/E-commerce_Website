@@ -8,7 +8,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
 <link rel="stylesheet" href='<c:url value="/resources/css/header.css"></c:url>'>
-<link rel="stylesheet" href='<c:url value="/resources/css/footer.css"></c:url>'>
 <link rel="stylesheet" href='<c:url value="/resources/css/style.css"></c:url>'>
 <link rel="stylesheet" href='<c:url value="/resources/css/${param.css}.css"></c:url>'>
 <script src="https://kit.fontawesome.com/dd2c1c5bd1.js" crossorigin="anonymous"></script>
