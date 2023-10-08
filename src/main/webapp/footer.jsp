@@ -7,7 +7,7 @@
 			<li class="list-group-item mx-3 text-nowrap"><a href="#">Privacy Policy</a></li>
 			<li class="list-group-item mx-3 text-nowrap"><a href="#">Terms & Conditions</a></li>
 		</ul>
-		<p class="fw-bold my-4"><a href="#"><i class="fa-solid fa-copyright"></i>TIMEY</a></p>
+		<p class="fw-bold my-4"><a href="#"><i class="fa-solid fa-copyright me-1"></i>TIMEY</a></p>
 	</footer>
 
 </body>
