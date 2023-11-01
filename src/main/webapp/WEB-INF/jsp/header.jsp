@@ -51,11 +51,11 @@
 		</div>
 		<div class="header_banner border-light border-top border-bottom mt-4 border-3 position-relative">
 			<div class="banner position-relative overflow-hidden w-100">
-				<a href="#" class="banner_item w-100 bg-success float-start"><img src='<c:url value="/resources/images/logo_black.png"></c:url>'
+				<a href="#" class="banner_item w-100 float-start"><img src='<c:url value="/resources/images/logo_black.png"></c:url>'
 				class="w-100"></a>
-				<a href="#" class="banner_item w-100 bg-warning float-start"><img src='<c:url value="/resources/images/logo_black.png"></c:url>'
+				<a href="#" class="banner_item w-100 float-start"><img src='<c:url value="/resources/images/logo_white.png"></c:url>'
 				class="w-100"></a>
-				<a href="#" class="banner_item w-100 bg-primary float-start"><img src='<c:url value="/resources/images/logo_black.png"></c:url>'
+				<a href="#" class="banner_item w-100 float-start"><img src='<c:url value="/resources/images/logo_black.png"></c:url>'
 				class="w-100"></a>
 			</div>
 			<div class="controller position-absolute bottom-0 start-50 translate-middle d-flex">

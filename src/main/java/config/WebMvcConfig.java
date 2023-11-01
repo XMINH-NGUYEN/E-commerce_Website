@@ -1,4 +1,4 @@
-/*package config;
+package config;
 
 import org.springframework.beans.factory.annotation.Configurable;
 import org.springframework.context.annotation.Bean;
@@ -16,7 +16,7 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	@Bean
 	public InternalResourceViewResolver viewResolver() {
 		InternalResourceViewResolver vr = new InternalResourceViewResolver();
-		vr.setPrefix("/");
+		vr.setPrefix("/WEB-INF/jsp/");
 		vr.setSuffix(".jsp");
 		
 		return vr;
@@ -26,4 +26,4 @@ public class WebMvcConfig implements WebMvcConfigurer {
 	public void addResourceHandlers(ResourceHandlerRegistry registry) {
 		registry.addResourceHandler("/resources/**").addResourceLocations("/resources/theme1/");
 	}
-}*/
+}

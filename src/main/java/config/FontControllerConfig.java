@@ -1,4 +1,4 @@
-/*package config;
+package config;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 
@@ -20,4 +20,4 @@ public class FontControllerConfig extends AbstractAnnotationConfigDispatcherServ
 		return new String[] {"/"};
 	}
 	
-}*/
+}
